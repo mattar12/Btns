@@ -23,6 +23,10 @@
         return function() { window.location.href = link; };
     }
 
+	// Opens link in a new window
+	function linkEventNewWindow( link ) {
+        return function() { window.open( link ); };
+    }
 
 
     // remove CSS that makes the menu invisible onload
